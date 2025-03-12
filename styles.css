@@ -156,7 +156,7 @@ h1 {
 /* Estilos para el tema oscuro */
 body.dark-theme {
     --color-background: #2c3e50;
-    --color-text: #ecf0f1;
+    --color-text: #070707;
     --color-primary: #3498db;
     --color-secondary: #2ecc71;
 }
