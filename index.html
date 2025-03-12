@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Lógicos Binarios Avanzados</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Operadores Lógicos Binarios</h1>
+        <div class="checkbox-container">
+            <label class="checkbox-label">
+                <input type="checkbox" id="casillaA" class="checkbox-input">
+                Casilla A
+                <span id="valorA" class="valor-casilla">0</span>
+            </label>
+            <label class="checkbox-label">
+                <input type="checkbox" id="casillaB" class="checkbox-input">
+                Casilla B
+                <span id="valorB" class="valor-casilla">0</span>
+            </label>
+        </div>
+        <div class="resultados">
+            <div id="resultadoAND" class="resultado"></div>
+            <div id="resultadoOR" class="resultado"></div>
+            <div id="resultadoXOR" class="resultado"></div>
+        </div>
+        <canvas id="resultadosChart"></canvas>
+        <div id="historial" class="historial">
+            <h3>Historial de Operaciones</h3>
+            <ul id="listaHistorial"></ul>
+        </div>
+    </div>
+    <button id="themeToggle" class="theme-toggle">Cambiar Tema</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
